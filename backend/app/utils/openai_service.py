@@ -11,7 +11,7 @@ class InvoiceExtractor:
     def __init__(self, api_key: str):
         """Initialize OpenAI client with API key."""
         self.client = OpenAI(api_key=api_key)
-        self.model = "gpt-3.5-turbo"
+        self.model = "gpt-4-turbo"
 
     def extract_invoice_data(self, pdf_text: str) -> Dict:
         """

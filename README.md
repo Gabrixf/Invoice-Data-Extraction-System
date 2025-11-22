@@ -5,7 +5,7 @@ A full-stack application for extracting structured data from PDF invoices using 
 ## Features
 
 - **PDF Invoice Processing**: Upload single or multiple PDF invoices
-- **AI-Powered Data Extraction**: Uses OpenAI GPT-3.5 to extract:
+- **AI-Powered Data Extraction**: Uses OpenAI GPT-4 Turbo for superior accuracy in extracting:
   - Company/Vendor Name
   - Invoice Number
   - Invoice Date
@@ -246,10 +246,11 @@ The application handles various error scenarios:
 
 ## Data Extraction Logic
 
-The OpenAI extraction uses GPT-3.5-turbo with:
+The OpenAI extraction uses GPT-4 Turbo with:
 - Temperature: 0.3 (low for consistency)
 - Max tokens: 1500
 - Structured JSON output format
+- Superior accuracy for complex invoice formats
 - Validation and cleaning of extracted data
 
 ## Excel Report Format
@@ -332,9 +333,11 @@ Create sample PDF invoices with:
 
 ## API Cost
 
-This application uses OpenAI's GPT-3.5-turbo API. Costs are minimal:
-- Approximately $0.0005 per invoice processed
-- $5 covers approximately 10,000 invoices
+This application uses OpenAI's GPT-4 Turbo API for superior accuracy:
+- Approximately $0.003-0.005 per invoice processed
+- $5 covers approximately 1,000-1,700 invoices
+- Higher cost offset by significantly better extraction accuracy
+- Perfect for production use where accuracy is critical
 
 ## License
 
