@@ -70,25 +70,6 @@ See **[MULTI_CURRENCY_GUIDE.md](MULTI_CURRENCY_GUIDE.md)** for complete details.
 
 ---
 
-## 🎯 Enhancement Ideas
-
-The project is production-ready, but we have compiled a comprehensive list of optional enhancements you can add. Check **[ENHANCEMENT_IDEAS.md](ENHANCEMENT_IDEAS.md)** for:
-
-- 📊 Data persistence & history
-- 🎨 User experience improvements
-- 🔄 Advanced processing features (OCR, multi-currency)
-- 🔗 Integration & automation
-- 📈 Analytics & reporting
-- 🔒 Security & performance
-- 📱 Mobile & accessibility
-- 🧪 Testing & quality
-
-Each feature includes:
-- Difficulty level and estimated effort
-- Implementation examples
-- Code snippets
-- Priority recommendations
-
 ## Prerequisites
 
 - Python 3.8+
